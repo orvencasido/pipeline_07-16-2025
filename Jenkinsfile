@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    enviroment {
+    environment {
         NAME = "ORVEN"
         LAST_NAME = "CASIDO"
     }
