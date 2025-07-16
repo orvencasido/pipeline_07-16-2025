@@ -14,5 +14,10 @@ pipeline {
                 '''
             }
         }
+        stage('Hello Test') {
+            steps {
+                sh 'echo "This Worked as a Pipeline!"'
+            }
+        }
     }
 }
